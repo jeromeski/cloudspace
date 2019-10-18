@@ -1,0 +1,39 @@
+.main-header {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.logo {
+  margin-top: 1rem;
+  fill: white;
+  height: 2.5rem;
+}
+
+.main-header .showcase {
+  padding: 50px 0;
+}
+
+@media (max-width: 500px) {
+  .main-header .showcase {
+    padding-top: 5rem;
+  }
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+nav .button-collapse {
+  margin-top: 5px !important;
+}
+
+/* --> Tabs 
+================================== */
+
+.tabs .indicator {
+  background-color: rgb(199, 211, 212)
+}

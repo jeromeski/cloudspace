@@ -1,0 +1,31 @@
+/* --> Podcast
+=======================================*/
+
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 18rem;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9);
+}
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+}
+
+.section-podcast a {
+  margin-top: 3rem;
+}
+
+@media (max-width: 375px) {
+  .section-podcast a {
+    margin-top: 0;
+  }   
+}

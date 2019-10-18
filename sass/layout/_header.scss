@@ -1,0 +1,35 @@
+/* --> Header
+=======================================*/
+
+.main-header {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.logo {
+  margin-top: 1rem;
+  fill: white;
+  height: 2.5rem;
+}
+
+// .main-header .showcase {
+//   padding-top: 100px;
+// }
+
+@media (max-width: 500px) {
+  .main-header .showcase {
+    padding-top: 5rem;
+  }
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+nav .button-collapse {
+  margin-top: 5px !important;
+}

@@ -1,0 +1,167 @@
+@media (max-width: 37.5em) {
+  html {
+    font-size: calc(1rem + ((1vw - .2em) / 1.37142857)); } }
+
+@media (max-width: 62em) {
+  html {
+    font-size: calc(1rem + ((1vw - 0.48rem) * 1.3889));
+    /* Where: * 1.3889 = 100 * font_Size_Difference / viewport_Width_Difference */ } }
+
+@media (max-width: large-screen) {
+  html {
+    font-size: 2em; } }
+
+body {
+  font-size: 100%; }
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* --> Utilities
+================================= */
+.heading--bold {
+  font-weight: 500; }
+
+.heading--bolder {
+  font-weight: 600; }
+
+.modal {
+  width: 30% !important;
+  padding: 2rem; }
+
+.btn-extend {
+  display: block;
+  width: 100%; }
+
+/* --> Header
+=======================================*/
+.main-header {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff; }
+
+.logo {
+  margin-top: 1rem;
+  fill: white;
+  height: 2.5rem; }
+
+@media (max-width: 500px) {
+  .main-header .showcase {
+    padding-top: 5rem; } }
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold; }
+
+nav .button-collapse {
+  margin-top: 5px !important; }
+
+.section-icons {
+  padding: 5rem 0; }
+
+/* --> Developers
+=======================================*/
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  /* border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px; */
+  min-height: 18rem; }
+
+/* --> Language
+=======================================*/
+.section-language {
+  padding: 5rem; }
+
+.languages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  grid-gap: 2rem; }
+
+.language-icon {
+  height: 100%;
+  width: 100%; }
+
+/* --> Podcast
+=======================================*/
+.section-podcast {
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 18rem; }
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9); }
+
+@media (max-width: 500px) {
+  .section-developers,
+  .section-podcast {
+    min-height: 240px; } }
+
+.section-podcast a {
+  margin-top: 3rem; }
+
+@media (max-width: 375px) {
+  .section-podcast a {
+    margin-top: 0; } }
+
+/* --> Testimonials
+============================== */
+.section-testimonial .row {
+  margin: 0;
+  padding: 5rem 0; }
+
+/* ==> Footer 
+==================================== */
+.footer-list-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, max-content));
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 2rem; }
+
+.footer-copyright div {
+  display: flex;
+  justify-content: space-between; }
+
+.main-header {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff; }
+
+.logo {
+  margin-top: 1rem;
+  fill: white;
+  height: 2.5rem; }
+
+.main-header .showcase {
+  padding: 50px 0; }
+
+@media (max-width: 500px) {
+  .main-header .showcase {
+    padding-top: 5rem; } }
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold; }
+
+nav .button-collapse {
+  margin-top: 5px !important; }
+
+/* --> Tabs 
+================================== */
+.tabs .indicator {
+  background-color: #c7d3d4; }

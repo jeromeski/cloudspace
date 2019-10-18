@@ -1,0 +1,54 @@
+$small-screen: 37.5em !default;
+$medium-screen: 62em !default;
+$large-screen: 75em !default;
+
+html {
+
+  @media (max-width: $small-screen) {
+      font-size: calc(1rem + ((1vw - .2em) / 1.37142857));
+  }
+
+  @media (max-width: $medium-screen) {
+      font-size: calc(1rem + ((1vw - 0.48rem) * 1.3889));
+      /* Where: * 1.3889 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+
+  @media (max-width: large-screen) {
+      font-size: 2em;
+  }
+}
+
+body {
+  font-size: 100%;
+}
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* --> Utilities
+================================= */
+
+.heading--bold {
+  font-weight: 500;
+}
+
+.heading--bolder {
+  font-weight: 600;
+}
+
+.modal {
+  width: 30% !important;
+  padding: 2rem;
+}
+
+.btn-extend {
+  display: block;
+  width: 100%;
+}
